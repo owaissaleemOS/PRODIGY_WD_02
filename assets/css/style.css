@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.stopwatch_screen {
+  text-align: center;
+}
+
+.content_screen {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  user-select: none; /* Standard syntax */
+  border: 2px solid black;
+}
+
+.content_screen:hover {
+  transform: scale(1.1);
+}
+
+#content {
+  font-size: 64px;
+  margin: 0;
+}
+
+.stopwatch_button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #222;
+}
